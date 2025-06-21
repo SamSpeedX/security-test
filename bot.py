@@ -2,7 +2,7 @@ import requests
 import time
 import random
 
-TARGET_URL = "http://your-laravel-site.com"
+TARGET_URL = input("Target URL: ")
 BOT_AGENTS = [
     "python-requests/2.25.1",
     "curl/7.64.1",
